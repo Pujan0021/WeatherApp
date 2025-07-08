@@ -45,32 +45,32 @@ btn.addEventListener("click", () => {
             temperature3.innerText = "Temperature:" + (days[2].temperature);
             let description = data.description;
             if (description == "Rain in vicinity") {
-                image.src = "./images/rainny.png"
+                image.src = "./rainny.png"
             }
             else if (description == "Partly cloudy") {
-                image.src = "./images/cloudy.jpg";
+                image.src = "./cloudy.jpg";
             } else if (description == "Sunny") {
-                image.src = "./images/sunnycartoon.avif";
+                image.src = "./sunnycartoon.avif";
             } else if (description == "Patchy rain nearby") {
-                image.src = "./images/rainny.png";
+                image.src = "./rainny.png";
             } else if (description == "Patchy light rain") {
-                image.src = "./images/patchyrain.png";
+                image.src = "./patchyrain.png";
             } else if (description == "Light rain shower") {
-                image.src = "./images/patchyrain.png";
+                image.src = "./patchyrain.png";
             } else if (description == "Light rain") {
-                image.src = "./images/patchyrain.png";
+                image.src = "./patchyrain.png";
             } else if (description == "Patchy light drizzle") {
-                image.src = "./images/partlylittledizzle.png";
+                image.src = "./partlylittledizzle.png";
             } else if (description == "Clear") {
-                image.src = "./images/clearsky.png";
+                image.src = "./clearsky.png";
             } else if (description == "Patchy light rain in area with thunder") {
-                image.src = "./images/rainny.png";
+                image.src = "./rainny.png";
             } else if (description == "Thundery outbreaks in nearby") {
-                image.src = "./images/rainny.png";
+                image.src = "./rainny.png";
             } else if (description == "Drizzle") {
-                image.src = "./images/drizz.png";
+                image.src = "./drizz.png";
             } else {
-                image.src = "./images/winter.png";
+                image.src = "./winter.png";
             }
         }
         )
