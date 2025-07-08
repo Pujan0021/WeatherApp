@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.sub{
+    height:fit-content;
+    width: 600px;
+    border: 2px solid rgb(242, 227, 227);
+    text-align: center;
+    border-radius: 20px;
+ background: linear-gradient(to right, #ead6d1, #6569dd);
+ 
+}
+.defaultImage{
+    height: 200px;
+    width: 200px;
+}
+.location{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: fit-content;  
+}
+.fa-searchengin{
+    font-size: 40px;
+    padding-top: 5px;
+}
+.fa-searchengin:hover{
+    font-size: 40px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: green;
+}
+.informations{
+    display: none;
+}
+.logoBtn{
+    width: 80px;
+    border-radius: 10px;
+    border: 0px solid white;
+}
+.temp{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.addLocation{
+padding: 10px;
+font-size: 25px;
+border-radius: 20px;
+text-align: center;
+border: 2px solid rgb(206, 190, 190);
+box-shadow: 0px 0px 5px 0px blue;
+}
+.description{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 50px;
+      flex-wrap: wrap;
+}
+.dayi,.dayii,.dayiii{
+    padding-top: 30px;
+height: 150px;
+width: 170px;
+/* border: 2px solid black; */
+border-radius: 20px;
+box-shadow: 0px 0px 10px 0px rgb(65, 63, 63);
+}
+.wind{
+font-size: 30px;
+text-align: center;
+padding-top: 20px;
+}
+.condition{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.wind1,.wind2,.wind3{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.temperature1,.temperature2,.temperature3{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.day1,.day2,.day3{
+    font-size: 25px;
+    font-weight: bold;
+}
+@media(max-width:400px){
+ .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sub{
+    height:fit-content;
+    width: 250px;
+    border: 2px solid rgb(242, 227, 227);
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(201, 230, 241);
+}
+.defaultImage{
+    height: 50px;
+    width: 50px;
+}
+.location{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    height: fit-content;  
+}
+.fa-searchengin{
+    font-size: 14px;
+    padding-top: 2px;
+}
+.fa-searchengin:hover{
+    font-size: 14px;
+    padding-top: 2px;
+    cursor: pointer;
+    color: green;
+}
+.informations{
+    display: none;
+}
+.logoBtn{
+    width: 40px;
+    border-radius: 10px;
+    border: 0px solid white;
+    padding-top: 3px;
+}
+.temp{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.addLocation{
+padding: 4px;
+font-size: 10px;
+border-radius: 5px;
+text-align: center;
+box-shadow: 0px 0px 5px 0px blue;
+}
+.description{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 20px;
+      flex-wrap: wrap;
+}
+.dayi,.dayii,.dayiii{
+    padding-top: 10px;
+height: 80px;
+width:130px;
+/* border: 2px solid black; */
+border-radius: 20px;
+box-shadow: 0px 0px 10px 0px rgb(65, 63, 63);
+}
+.wind{
+font-size: 14px;
+text-align: center;
+padding-top: 10px;
+}
+.condition{
+    font-size: 10px;
+    padding-top: 5px;
+}
+.wind1,.wind2,.wind3{
+    padding-top: 5px;
+    font-size: 10px;
+}
+.temperature1,.temperature2,.temperature3{
+    padding-top: 5px;
+    font-size: 7px;
+}
+.day1,.day2,.day3{
+    font-size: 14px;
+    font-weight: bold;
+}
+}
